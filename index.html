@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <div class="formulario">
+        <header>
+            <h1>REGISTRO DE CONTATO</h1>
+        </header>
+        <form id="registro">
+        <div class="input-group">
+            <div class="input-registro">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="name" alt="Nome completo" placeholder="Nome completo" autofocus required />
+            </div>
+            <div class="input-registro">
+                <i class="fa-solid fa-at"></i>
+                <input type="email" id="correio" alt="E-mail" placeholder="nome@exemplo.com" required />
+            </div>
+            <div class="input-registro">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="fone" onkeydown="return mascaraTelefone(event)" placeholder="Digite o telefone" />
+            </div>
+            <div class="btn">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </div>
+        <table class="tabela" cellspacing ="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </form>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

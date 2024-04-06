@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #d0d0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 640px;
+    background-color: #2C2F35;
+    padding: 10px 20px 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.formulario h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+}
+
+.input-registro {
+    background-color: #515966;
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 13px 11px;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.input-registro i {
+    margin-left: 15px;
+    color: #04BD7D;
+}
+
+form p {
+    color: white;
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    color: #04BD7D;
+    margin-left: 5px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn button {
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: #04BD7D;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.input-group {
+    height: 200px;
+}
+
+.tabela {
+    font-size: 13px;
+    margin-bottom: 60px;
+    color: white;
+    position: relative;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #04BD7D
+}
+
+table td {
+    padding: 5px 0;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
